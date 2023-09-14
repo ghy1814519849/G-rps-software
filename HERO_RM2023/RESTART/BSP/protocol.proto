@@ -1,0 +1,9 @@
+syntax="proto3";
+package Protocol;
+message Frame{
+	int32 x=1;
+	int32 y=2;
+	int32 distance=3;
+	int32 color=4;
+	int32 id=5;
+}
